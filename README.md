@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Perl related to the `each` function used for hash iteration. The bug arises from the fact that `each` modifies the hash's internal iterator.  The example script shows how using `each` in a loop can prevent subsequent iterations over the same hash.  The solution provides a workaround that ensures correct iteration in all cases.
